@@ -1,0 +1,28 @@
+{
+  "config": {
+    "branch": "main",
+    "domain": "https://SIyuyuko.github.io",
+    "email": "",
+    "enabledProxy": "direct",
+    "platform": "github",
+    "privateKey": "",
+    "repository": "SIyuyuko.github.io",
+    "token": "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",
+    "username": "SIyuyuko"
+  },
+  "comment": {
+    "commentPlatform": "gitalk",
+    "disqusSetting": {
+      "api": "",
+      "apikey": "",
+      "shortname": ""
+    },
+    "gitalkSetting": {
+      "clientId": "",
+      "clientSecret": "",
+      "owner": "",
+      "repository": ""
+    },
+    "showComment": false
+  }
+}
