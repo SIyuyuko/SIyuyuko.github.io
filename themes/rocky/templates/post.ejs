@@ -54,17 +54,8 @@
         </div>
         <!-- Share to Twitter, Weibo, Telegram -->
         <div class="flex items-center">
-          <div class="mr-4 flex items-center">
-            <i class="ri-share-forward-line text-gray-500"></i>
-          </div>
-          <div class="px-4 cursor-pointer text-blue-500 hover:bg-blue-100 dark:hover:bg-gray-600 inline-flex" @click="shareToTwitter">
-            <i class="ri-twitter-line"></i>
-          </div>
-          <div class="px-4 cursor-pointer text-red-500 hover:bg-red-100 dark:hover:bg-gray-600 inline-flex" @click="shareToWeibo">
-            <i class="ri-weibo-line"></i>
-          </div>
-          <div class="px-4 cursor-pointer text-indigo-500 hover:bg-indigo-100 dark:hover:bg-gray-600 inline-flex" @click="shareToTelegram">
-            <i class="ri-telegram-line"></i>
+          <div class="px-4 flex items-center text-gray-500 hover:bg-blue-100 dark:hover:bg-gray-600 inline-flex" @click="shareCustom" title="分享本页">
+            <i class="ri-share-forward-line" ></i>
           </div>
         </div>
       </div>

@@ -5,6 +5,11 @@ body {
   color: #333;
   background-color: rgb(250, 249, 247);
   background-image: url('../media/images/bg.jpg');
+  backdrop-filter: brightness(0.95) blur(4px);
+  background-clip: content-box;
+  overflow-x: hidden;
+  background-attachment: fixed;
+ 
 }
 
 @supports (font-variation-settings: normal) {

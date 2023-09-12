@@ -22,7 +22,7 @@
             <%= site.customConfig.socialText %>
           </div>
         <% } %>
-        <% ['wechat', 'mail', 'github', 'twitter', 'weibo', 'zhihu', 'facebook', 'telegram', 'dribbble', 'instagram', 'behance', 'qq'].forEach((item) => { %>
+        <% ['wechat', 'mail', 'github', 'twitter', 'weibo', 'zhihu', 'facebook', 'telegram', 'dribbble', 'bilibili', 'behance', 'qq'].forEach((item) => { %>
           <% if (site.customConfig[item]) { %>
             <% if (site.customConfig[item] && item === 'wechat') { %>
               <div class="relative mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 transition-fast dark:hover:bg-gray-600 wechat">

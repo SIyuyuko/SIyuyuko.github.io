@@ -174,8 +174,8 @@
       "note": "链接地址"
     },
     {
-      "name": "instagram",
-      "label": "Instagram",
+      "name": "bilibili",
+      "label": "bilibili",
       "group": "社交信息",
       "value": "",
       "type": "input",

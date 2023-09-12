@@ -12,7 +12,7 @@ new Vue({
       return encodeURIComponent(document.title) 
     },
     url() {
-      return encodeURIComponent(window.location.href)
+      return decodeURIComponent(window.location.href)
     }
   },
   mounted() {
@@ -32,14 +32,17 @@ new Vue({
     backToUp() {
       window.scrollTo(0, 0)
     },
-    shareToTwitter() {
-      window.open(`https://twitter.com/share?text=${this.text}&url=${this.url}`, '_blank', 'width=615,height=505')
-    },
-    shareToWeibo() {
-      window.open(`https://service.weibo.com/share/share.php?title=${this.text}&url=${this.url}`, '_blank', 'width=615,height=505')
-    },
-    shareToTelegram() {
-      window.open(`https://telegram.me/share/url?text=${this.text}&url=${this.url}`, '_blank', 'width=615,height=505')
+    shareCustom() {
+       // 复制到粘贴板
+      const input = document.createElement('input');
+      input.setAttribute('readonly', 'readonly');
+      input.setAttribute('value', this.url);
+      document.body.appendChild(input);
+      input.select();
+      if (!document.execCommand('copy')) {
+        document.execCommand('copy');
+        // Toast('链接已复制');
+      };
     },
   },
 })
