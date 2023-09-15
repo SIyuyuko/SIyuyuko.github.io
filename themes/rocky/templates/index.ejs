@@ -1,29 +1,68 @@
 <html lang="en">
+
 <head>
   <%- include('./includes/head', { siteTitle: themeConfig.siteName }) %>
-  <meta name="description" content="<%- themeConfig.siteDescription %>" />
+    <meta name="description" content="<%- themeConfig.siteDescription %>" />
 </head>
+
 <body>
   <div class="antialiased flex flex-col min-h-screen" id="app">
 
     <%- include('./includes/header') %>
 
-    <div class="max-w-4xl w-full mx-auto <%= `${site.isHomepage ? '' : 'pt-32' }` %>">
-      <% if (site.isHomepage) { %>
-        <%- include('./includes/homepage-header') %>
-      <% } %>
+      <div class="max-w-4xl w-full mx-auto <%= `${site.isHomepage ? '' : 'pt-32' }` %>">
+        <% if (site.isHomepage) { %>
+          <%- include('./includes/homepage-header') %>
+            <% } %>
 
-      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
-        <%- include('./includes/post-list') %>  
+              <div
+                class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+                <%- include('./includes/post-list') %>
+              </div>
+
+              <%- include('./includes/pagination') %>
+                <%- include('./includes/footer') %>
       </div>
-
-      <%- include('./includes/pagination') %>
-      <%- include('./includes/footer') %>
-
-    </div>
   </div>
+  <!-- <%if(site.customConfig.aplayerchoice){%>
+    <%- include('./includes/aplayer') %>
+      <%}%> -->
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="<%= site.themeConfig.domain %>/media/scripts/main.js"></script>
+  <script>
+          // window.onload = function () {
+          //   aplayerbtnInit();
+          // };
+  </script>
+  <script type="application/javascript" src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script type="application/javascript" src="https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+  <script src="<%= site.themeConfig.domain %>/media/scripts/img.js"></script>
+  <script src="<%= site.themeConfig.domain %>/media/scripts/all-pjax.js"></script>
+  <!-- pjax -->
+  <script>
+          // let scrolled = false;
+          // let showToc = false;
+          // let showMenu = false;
+          // let url = decodeURIComponent(window.location.href);
+          // // 对所有链接跳转事件绑定pjax容器container
+          // $(document).pjax('a[target!=_blank]', '#app', { fragment: '#app', timeout: 8000 }).on('pjax:complete', function () {
+          //   // 需要重载的 JS 函数
+          //   if (window.location.href.includes("post")) {
+          //     console.log("在post");
+          //     initImg();
+          //     navOnScroll();
+          //     backToUp();
+          //     shareCustom();
+          //   }
+          // }).on('pjax:start', function (event) {
+          //   // 需要重载的 JS 文件
+          //   $.getScript("https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js");
+          //   $.getScript("https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js");
+          //   $.getScript("<%= site.themeConfig.domain %>/media/scripts/all-pjax.js");
+          //   $.getScript("<%= site.themeConfig.domain %>/media/scripts/img.js");
+          // });
+  </script>
 </body>
 <%- include('./includes/scripts') %>
+
 </html>

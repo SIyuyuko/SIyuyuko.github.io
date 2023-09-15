@@ -16,7 +16,7 @@ new Vue({
     }
   },
   mounted() {
-    window.addEventListener('scroll', this.navOnScroll)
+    window.addEventListener('scroll', this.navOnScroll);
   },
   methods: {
     oepnUrl(url) {
@@ -43,6 +43,7 @@ new Vue({
         document.execCommand('copy');
         // Toast('链接已复制');
       };
+      input.remove();
     },
   },
 })

@@ -1,14 +1,14 @@
 {
   "posts": [
     {
-      "content": "> 欢迎来到我的小站呀，很高兴遇见你！🤝\n\n## 🏠 关于本站\n\n## 👨‍💻 博主是谁\n\n## ⛹ 兴趣爱好\n\n## 📬 联系我呀\n",
+      "content": "> See something you want here, nice to meet you. uwu\r\n## 1️⃣ About blogs\r\n记录自己所思所想，无论是过去，还是未来。\r\n站名来源于2022年3月初自己创建的闲聊群名，是现在交流群的前身。\r\n\r\n## 2️⃣ Author\r\n网名SIyuyuko，**SI**取自Silly，**yuyuko**取自西行寺幽幽子。\r\n别名uuz、幽神、幽幽子、悠悠、幽姐……感谢西行寺小姐和群友们赏脸(bushi)\r\n2001.11.30 生于 四川\r\n\r\n## 3️⃣ Interests\r\n### 🎮 Osu!\r\n一种音乐节奏游戏，你可以在<a href=\"https://osu.ppy.sh/users/9794030\" target=\"_blank\" style=\"color:inherit\"><b>这里</b></a>查看我的游戏主页，欢迎互mu。\r\n<img src=\"https://osekai.net/profiles/img/banner.svg?id=9794030\" alt=\"osu profile banner\"/>\r\n\r\n### 🎼 Music\r\n2013年秋天开始喜欢苏打绿\r\n2016年初中毕业后，听歌曲风扩宽，主要偏冷门\r\n2020年开始频繁接触椎名林檎\r\n\r\n### 🌸 Animes\r\n<details>\r\n<summary>Elfen Lied(2004)</summary>\r\n<img src=\"https://files.catbox.moe/z7eoru.png\" alt=\"Lucy\" />\r\n</details>\r\n\r\n<details>\r\n<summary>serial experiments lain(1998)</summary>\r\n<img src=\"https://files.catbox.moe/q7uo57.jpg\" alt=\"lain\" />\r\n</details>\r\n\r\n### 📷 Photo\r\n较低强度社交，大概能想到的是用照片来记录曾经发生过的一切罢。\r\n<img src=\"https://files.catbox.moe/ot038m.jpg\" />\r\n<center>学校湖边森林 摄于2019年10月</center>\r\n<br>\r\n<center><em>纵使经过无数次，我还是喜欢最开始遇见的那一刻；<br>新的生活，新的面孔，对未来充满想象，勇敢地往前走。</em></center>\r\n\r\n\r\n\r\n",
       "data": {
         "title": "关于",
-        "date": "2023-09-12 15:27:26",
+        "date": "2023-09-13 22:51:51",
         "tags": [],
         "published": true,
         "hideInList": true,
-        "feature": null,
+        "feature": "https://files.catbox.moe/ot038m.jpg",
         "isTop": false
       },
       "isEmpty": false,
@@ -17,7 +17,7 @@
       "fileName": "about"
     },
     {
-      "content": "👏  欢迎使用 **Gridea** ！  \n✍️  **Gridea** 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ... \n\n<!-- more -->\n\n[Github](https://github.com/getgridea/gridea)  \n[Gridea 主页](https://gridea.dev/)  \n[示例网站](https://fehey.com/)\n\n## 特性👇\n📝  你可以使用最酷的 **Markdown** 语法，进行快速创作  \n\n🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片  \n\n🏷️  你可以对文章进行标签分组  \n\n📋  你可以自定义菜单，甚至可以创建外部链接菜单  \n\n💻  你可以在 **Windows**，**MacOS** 或 **Linux** 设备上使用此客户端  \n\n🌎  你可以使用 **𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌** 或 **Coding Pages** 向世界展示，未来将支持更多平台  \n\n💬  你可以进行简单的配置，接入 [Gitalk](https://github.com/gitalk/gitalk) 或 [DisqusJS](https://github.com/SukkaW/DisqusJS) 评论系统  \n\n🇬🇧  你可以使用**中文简体**或**英语**  \n\n🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力  \n\n🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步  \n\n🌱 当然 **Gridea** 还很年轻，有很多不足，但请相信，它会不停向前 🏃\n\n未来，它一定会成为你离不开的伙伴\n\n尽情发挥你的才华吧！\n\n😘 Enjoy~\n",
+      "content": "👏  欢迎使用 **Gridea** ！  \r\n✍️  **Gridea** 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ... \r\n\r\n<!-- more -->\r\n\r\n[Github](https://github.com/getgridea/gridea)  \r\n[Gridea 主页](https://gridea.dev/)  \r\n[示例网站](https://fehey.com/)\r\n\r\n## 特性👇\r\n📝  你可以使用最酷的 **Markdown** 语法，进行快速创作  \r\n\r\n🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片  \r\n\r\n🏷️  你可以对文章进行标签分组  \r\n\r\n📋  你可以自定义菜单，甚至可以创建外部链接菜单  \r\n\r\n💻  你可以在 **Windows**，**MacOS** 或 **Linux** 设备上使用此客户端  \r\n\r\n🌎  你可以使用 **𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌** 或 **Coding Pages** 向世界展示，未来将支持更多平台  \r\n\r\n💬  你可以进行简单的配置，接入 [Gitalk](https://github.com/gitalk/gitalk) 或 [DisqusJS](https://github.com/SukkaW/DisqusJS) 评论系统  \r\n\r\n🇬🇧  你可以使用**中文简体**或**英语**  \r\n\r\n🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力  \r\n\r\n🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步  \r\n\r\n🌱 当然 **Gridea** 还很年轻，有很多不足，但请相信，它会不停向前 🏃\r\n\r\n未来，它一定会成为你离不开的伙伴\r\n\r\n尽情发挥你的才华吧！\r\n\r\n😘 Enjoy~\r\n",
       "data": {
         "title": "Hello Gridea",
         "date": "2018-12-12 00:00:00",
@@ -31,7 +31,7 @@
       },
       "isEmpty": false,
       "excerpt": "",
-      "abstract": "👏  欢迎使用 **Gridea** ！  \n✍️  **Gridea** 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ... ",
+      "abstract": "👏  欢迎使用 **Gridea** ！  \r\n✍️  **Gridea** 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ... \r",
       "fileName": "hello-gridea"
     }
   ],

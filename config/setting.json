@@ -3,11 +3,13 @@
     "branch": "main",
     "domain": "https://SIyuyuko.github.io",
     "email": "",
-    "enabledProxy": "direct",
+    "enabledProxy": "proxy",
     "platform": "github",
     "privateKey": "",
+    "proxyPath": "127.0.0.1",
+    "proxyPort": "7890",
     "repository": "SIyuyuko.github.io",
-    "token": "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",
+    "token": "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",
     "username": "SIyuyuko"
   },
   "comment": {

@@ -320,6 +320,78 @@
       "value": "",
       "type": "input",
       "note": "UA-xxxxxxxxx-x"
+    },
+    {
+      "name": "aplayerchoice",
+      "label": "是否开启音乐播放器",
+      "group": "音乐播放器",
+      "value": false,
+      "type": "switch",
+      "note": ""
+    },
+    {
+      "name": "aplayerserver",
+      "label": "源平台",
+      "group": "音乐播放器",
+      "value": "netease",
+      "type": "select",
+      "note": "",
+      "options": [
+        {
+          "label": "网易云",
+          "value": "netease"
+        },
+        {
+          "label": "QQ音乐",
+          "value": "tencent"
+        },
+        {
+          "label": "酷狗",
+          "value": "kugou"
+        },
+        {
+          "label": "虾米",
+          "value": "xiami"
+        },
+        {
+          "label": "百度",
+          "value": "baidu"
+        }
+      ]
+    },
+    {
+      "name": "aplayerid",
+      "label": "歌单ID",
+      "group": "音乐播放器",
+      "value": "",
+      "type": "input",
+      "note": ""
+    },
+    {
+      "name": "aplayerorder",
+      "label": "播放模式",
+      "group": "音乐播放器",
+      "value": "default",
+      "type": "select",
+      "note": "",
+      "options": [
+        {
+          "label": "顺序播放",
+          "value": "default"
+        },
+        {
+          "label": "随机播放",
+          "value": "random"
+        }
+      ]
+    },
+    {
+      "name": "aplayerautoplay",
+      "label": "自动播放",
+      "group": "音乐播放器",
+      "value": false,
+      "type": "switch",
+      "note": ""
     }
   ]
 }
