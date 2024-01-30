@@ -155,7 +155,9 @@
               backToUp();
               tocManage();
               shareCustom(url);
-            };
+            } else {
+              showMenu();
+            }
           }).on('pjax:start', function (event) {
             // 需要重载的 JS 文件
             $.getScript("https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js");
