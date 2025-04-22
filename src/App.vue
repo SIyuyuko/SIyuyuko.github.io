@@ -6,22 +6,22 @@ let themeName = ref("");
 const themeList = ref([
   {
     name: 'Yuyuko',
-    bgUrl: "src/assets/image/yuyuko.png",
+    bgUrl: "/image/yuyuko.png",
     source: "https://x.com/matchach/status/1913671002078458053",
     customStyle: {
       backgroundSize: 'cover',
       // backgroundPositionY: '10%',
-      cursor: 'url("src/assets/image/sakura.png"), auto',
+      cursor: 'url("/image/sakura.png"), auto',
     },
   },
   {
     name: 'Lain',
-    bgUrl: "src/assets/image/lain.jpg",
+    bgUrl: "/image/lain.jpg",
     source: "https://www.pixiv.net/artworks/128988851",
     customStyle: {
       backgroundSize: 'cover',
       // backgroundPositionY: '10%',
-      cursor: 'url("src/assets/image/star.png"), auto',
+      cursor: 'url("/image/star.png"), auto',
     },
   },
 ]);
