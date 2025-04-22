@@ -13,7 +13,7 @@ const navList = ref([
     {
         name: 'Blog',
         type: "blog",
-        link: '#',
+        link: '/docs',
     },
     {
         name: 'About me',
