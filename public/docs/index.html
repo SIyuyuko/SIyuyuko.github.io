@@ -24,7 +24,7 @@
     }
     var theme = JSON.parse(localStorage.getItem('SIyuyukoSiteTheme'));
     var themeBg = theme ? theme.bgUrl : "http://192.168.243.4:5173/image/lain.jpg";
-    document.body.className = theme ? theme.name : "lain";
+    document.body.className = theme ? theme.name : "Lain";
     document.body.style.backgroundImage = `url(${themeBg})`;
     document.body.style.cursor = theme ? theme.customStyle.cursor : url("http://192.168.243.4:5173/image/star.png");
   </script>

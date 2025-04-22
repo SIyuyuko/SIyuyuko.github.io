@@ -5,7 +5,7 @@ body {
   backdrop-filter: brightness(0.5) blur(0.5px);
 }
 
-.lain {
+.Lain {
   --theme-color: #42b983;
   --text-color: #f8f8ff;
   color: var(--text-color);
@@ -14,7 +14,7 @@ body {
   }
 }
 
-.yuyuko {
+.Yuyuko {
   --theme-color: #db7093;
   --text-color: #f8f8ff;
   color: var(--text-color);
