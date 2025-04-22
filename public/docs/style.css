@@ -1,0 +1,35 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: brightness(0.5) blur(0.5px);
+}
+
+.lain {
+  --theme-color: #42b983;
+  --text-color: #f8f8ff;
+  color: var(--text-color);
+  .anchor span {
+    color: var(--theme-color);
+  }
+}
+
+.yuyuko {
+  --theme-color: #db7093;
+  --text-color: #f8f8ff;
+  color: var(--text-color);
+  .anchor span {
+    color: var(--theme-color);
+  }
+  .markdown-section p.warn {
+    background: rgba(219, 112, 147, 0.1);
+  }
+}
+
+section.content {
+  backdrop-filter: brightness(0.5) blur(0.5px);
+}
+
+.markdown-section p.tip {
+  color: #34495e;
+}
