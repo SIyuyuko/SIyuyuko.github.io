@@ -81,9 +81,8 @@ option {
   /* position: absolute; */
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: no-preference) {
   :root {
-    color: #213547;
     background-color: #ffffff;
   }
   a:hover {
